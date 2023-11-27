@@ -1,0 +1,28 @@
+body{
+    font-family: Inter, HeadlandOne;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+
+.site-nav{
+    display: flex;
+    width: 281px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.site-nav-link{
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
