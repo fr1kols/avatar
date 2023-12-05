@@ -62,7 +62,7 @@ body{
     gap: 38px;
 }
 
-.site-nav-link{
+.site-nav-link:hover{
     color: var(--hero);
     font-size: 20px;
     font-weight: 300;
@@ -186,6 +186,7 @@ body{
 }
 
 
+
 .avtor{
     color: var(--autor-name);
     text-align: center;
@@ -205,7 +206,8 @@ body{
 }
 
 .trailer{
-    height: 740px;
+    padding-top: 330px;
+    padding-bottom: 330px;
     background-image: url(./img/Rectangle10.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -220,17 +222,26 @@ body{
     border-top-left-radius: 45px;
     border-bottom-right-radius: 45px;
     cursor: pointer;
-    margin: 330px 400px;
-}
-
-.trailer-button-text{
     color: var(--button-text);
     font-family: 'Headland One', serif;
     font-weight: 400;
     font-size: 24px;
     padding: 25px 20px;
 }
+.trailer-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.title{
+    padding-top: 75px;
+}
+
+button:hover,
+button:focus {
+    cursor: pointer;
+}
 
 .navi-language{
     background-image: url(./img/Rectangle20.webp);
